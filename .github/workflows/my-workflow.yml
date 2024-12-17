@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Telling an own joke. Probably bad and I am sorry.
+        uses: ./.github/actions/joke-action
