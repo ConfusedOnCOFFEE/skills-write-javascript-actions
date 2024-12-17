@@ -57,7 +57,7 @@ Our action does not require much metadata for it to run correctly. We will not b
 3. Commit the changes and push them to GitHub:
    ```shell
    git add action.yml
-   git pull   
+   git pull
    git commit -m 'add metadata for the joke action'
    git push
    ```
