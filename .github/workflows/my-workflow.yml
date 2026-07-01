@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Telling an own joke. Probably bad and I am sorry.
         uses: ./.github/actions/joke-action
